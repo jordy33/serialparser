@@ -1,5 +1,9 @@
 ### Log DVR serial
 
+Conexion del DVR 
+![](/images/image005.jpg?raw=true)
+
+
 * Acceder al archivo log.txt
 
 * Buscar la cadena que empieza con: 7e 9c
