@@ -62,7 +62,7 @@ la suma de: 01+67+38+91+03+01 = A5
 
 Los dos byte siguientes (00 00) luego del A5 corresponden al serial number (en teoria se debe incrementar por uno, pero si no se hace no afecta en nada.
 
-Luego sigue el Menufacture Number que siempre debe ser: 00 01
+Luego sigue el Manufacture Number que siempre debe ser: 00 01
 
 Luego sigue el peripheral number que siempre debe ser 67
 
