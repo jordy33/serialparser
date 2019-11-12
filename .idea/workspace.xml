@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8c9a77f5-9624-4b97-ade4-0384999d6a93" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/serialparser.go" afterPath="$PROJECT_DIR$/serialparser.go" />
-    </list>
+    <list default="true" id="8c9a77f5-9624-4b97-ade4-0384999d6a93" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +18,8 @@
       <file leaf-file-name="serialparser.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/serialparser.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="107" column="65" lean-forward="true" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
+            <state relative-caret-position="696">
+              <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
               <folding>
                 <element signature="e#60#195#0" expanded="true" />
               </folding>
@@ -428,8 +426,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/serialparser.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="107" column="65" lean-forward="true" selection-start-line="107" selection-start-column="65" selection-end-line="107" selection-end-column="65" />
+        <state relative-caret-position="696">
+          <caret line="78" column="27" lean-forward="true" selection-start-line="78" selection-start-column="27" selection-end-line="78" selection-end-column="27" />
           <folding>
             <element signature="e#60#195#0" expanded="true" />
           </folding>
