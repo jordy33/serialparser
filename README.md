@@ -13,7 +13,7 @@ Cuando ocurra eso se debera de buscar la cadena que contenga los siguientes codi
 Se debera de reponder inmediatamente de la misma manera (sin retorno de carro o cambio de linea)
 :
 ```
- 7e  9c 00 00 00 01 67 34 7e
+7e 9c 00 00 00 01 67 34 7e
 ```
 
 Una vez que ocurra esto el sistema mandara el mensaje "not check auth" lo cual significa que el handshake fue exitoso.
