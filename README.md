@@ -78,6 +78,12 @@ Luego sigue las Personas que entran (palabra=dos bytes) en este ejemplo son 3.
 
 Luego sigue las Personas que bajan (palabra=dos bytes) en este ejemplo son 1.
 
+Cuando se envia la cadena el sistema respondera con un mensaje de la siguiente forma:
+
+in 3,out 1
+
+Especificando que se recibio con exito la información Y que ya la envio a la plataforma.
+
 Ejemplo del log:
 
 ```
