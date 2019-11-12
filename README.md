@@ -48,7 +48,7 @@ Ver el siguiente log donde muestra la comunicación exitosa con el handshake.
 
 PASO 2: Enviar los pasajeros que suben o que bajan:
 
-Se debera de enviar (ejemplo) la siguiente cadena:
+Se debera de enviar (por ejemplo) la siguiente cadena:
 
 7E A5 00 00 00 01 67 38  01 00 00 00 03 00 01 7e
 
