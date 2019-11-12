@@ -7,7 +7,7 @@
 
 PASO 1. Establecer handshake  
 Para este efecto es necesario analizar la información que llegue al puerto serie
-Lo primero es acumular los datos hasta que se reciba el retorno de carro (0x0d) y el cambio de linea (0x0a).
+. Lo primero es acumular los datos hasta que se reciba el retorno de carro (0x0d) y el cambio de linea (0x0a).
 Cuando ocurra eso se debera de buscar la cadena que contenga los siguientes codigos en hexadecimal: 7e  9c 00 00 00 01 67 34 7e
 
 Se debera de reponder inmediatamente de la misma manera (sin retorno de carro o cambio de linea)
