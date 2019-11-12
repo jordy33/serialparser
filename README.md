@@ -1,19 +1,20 @@
-### Log DVR serial
+### Procolo MDVR para simular A91
 
-Conexion del DVR 
+* Conexion del DVR al puerto serie: 115200,8,N,1
+
 ![](/images/image005.jpg?raw=true)
 
-
-### Procolo MDVR para simular A91
 
 PASO 1. Establecer handshake  
 Para este efecto es necesario analizar la información que llegue al puerto serie
 Lo primero es acumular los datos hasta que se reciba el retorno de carro (0x0d) y el cambio de linea (0x0a).
 Cuando ocurra eso se debera de buscar la cadena que contenga los siguientes codigos en hexadecimal: 7e  9c 00 00 00 01 67 34 7e
 
-Se debera de reponder inmediatamente de la misma manera:
-
+Se debera de reponder inmediatamente de la misma manera (sin retorno de carro o cambio de linea)
+:
+```
  7e  9c 00 00 00 01 67 34 7e
+```
 
 Una vez que ocurra esto el sistema mandara el mensaje "not check auth" lo cual significa que el handshake fue exitoso.
 
@@ -47,7 +48,7 @@ Ver el siguiente log donde muestra la comunicación exitosa con el handshake.
 
 PASO 2: Enviar los pasajeros que suben o que bajan:
 
-Se debera de enviar la siguiente cadena:
+Se debera de enviar (ejemplo) la siguiente cadena:
 
 7E A5 00 00 00 01 67 38  01 00 00 00 03 00 01 7e
 
