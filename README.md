@@ -58,7 +58,7 @@ El siguiente byte es el Checksum: El cual es la suma de los campos entre los pip
 
 7E A5 00 00 | 00 01 67 38  01 00 00 00 03 00 01 | 7e
 
-la suma de: 01+67+38+91+03+01 = A5
+la suma de: 01+67+38+01+03+01 = A5
 
 Los dos byte siguientes (00 00) luego del A5 corresponden al serial number (en teoria se debe incrementar por uno, pero si no se hace no afecta en nada.
 
