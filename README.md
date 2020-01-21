@@ -141,3 +141,12 @@ Ejemplo del log:
 00000000  20 ba f3 c3 c5 3a 69 6e  20 33 2c 6f 75 74 20 31  | ....:in 3,out 1|
 00000010  0d 0a                                             |..|
 ```
+Ejemplos:
+
+```
+Normal Frontal suben 04 bajan 05
+7e A9 00 00 00 01 67 38 00 00 00 00 04 00 05 7e
+
+Error Frontal
+7e AF 00 00 00 01 67 38 00 01 01 00 06 00 07 7e
+```
